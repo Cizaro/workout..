@@ -17,7 +17,6 @@ function sendNotification() {
     if (Notification.permission === 'granted') {
         const notification = new Notification('Workout Reminder', {
             body: 'Don’t forget to work out today!',
-            icon: 'path/to/icon.png',  // Optional: Replace with the path to your icon image
         });
 
         // Log when notification is shown
